@@ -1,0 +1,27 @@
+
+    img {
+      width: 80%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      cursor: pointer;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    body {
+      font-family: 'Roboto Mono', monospace;
+      letter-spacing: 5px;
+    }
+
+    #container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      width: 80%;
+      margin: auto;
+    }
+  

@@ -27,7 +27,7 @@ function retrogradeDecision () {
 
 };
 
-console.log(retrogradeDecision());
+//console.log(retrogradeDecision());
 
 //databank used by sentences 2 to 4
 
@@ -39,6 +39,8 @@ const data = {
     problemLocation: ['work', 'home', 'a social group', 'church', 'temple'],
     habitToStop: ['holding back', 'making excuses', 'fighting yourself', 'worrying', 'putting yourself down'],
     luckyEvent: ['ask for a raise', 'reveal your feelings to an old friend', 'declare war on a neighbouring country and force your ideology on its people', "ask out the barista you've been flirting with", 'watch your team playing this week']
+    
+
 }
 
 //sentence 2
@@ -55,7 +57,7 @@ function stirredUp () {
 }
 
 
-console.log(stirredUp());
+//console.log(stirredUp());
 
 //sentence 3
 
@@ -65,7 +67,7 @@ function habitStop() {
     return `A problem at ${data['problemLocation'][locationNumber]} could mean it's time to stop ${data['habitToStop'][habitNumber]}.`
 }
 
-console.log(habitStop());
+//console.log(habitStop());
 
 //sentence 4
 
@@ -76,4 +78,13 @@ function luckyTip() {
 
 }
 
-console.log(luckyTip());
+//console.log(luckyTip());
+
+function displayHoroscope () {
+    
+    return `${retrogradeDecision ()} ${stirredUp()} ${habitStop()} ${luckyTip()}`;
+   
+
+}
+
+//console.log(displayHoroscope());
