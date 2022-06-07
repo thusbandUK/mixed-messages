@@ -81,7 +81,7 @@ function luckyTip() {
 //console.log(luckyTip());
 
 function displayHoroscope () {
-    
+    document.getElementById('planets-image').style.opacity = 0;
     return `${retrogradeDecision ()} ${stirredUp()} ${habitStop()} ${luckyTip()}`;
    
 
